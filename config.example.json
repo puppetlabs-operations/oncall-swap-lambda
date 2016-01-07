@@ -1,4 +1,13 @@
 {
-    "pd_api_key": "1234"
+    "pd_url": "https://example.pagerduty.com",
+    "pd_api_key": "1234",
+    "pd_service": "SysOps",
+    "pd_primary_schedule": "PI381NX",
+    "pd_secondary_schedule": "PX281RL",
+    "pd_swap_range": {
+        "start": "7",
+        "end": "15"
+    },
+    "consecutive_days_paged": 2
 }
 
